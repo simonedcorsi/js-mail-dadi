@@ -29,4 +29,8 @@ benvenuto = true; }
 }
 
 // Stampare esito controllo
-
+if (benvenuto) {
+    console.log("Grazie per essere venuto");
+} else {
+    console.log("Non sei stato invitato")
+}
