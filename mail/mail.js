@@ -7,10 +7,6 @@ Non è consentito usare nessun metodo proprio degli array (come includes, per es
 Si può fare? Certo che si basta ragionare un po’.
 Nota:
 Non è necessario provvedere alla validazione delle email
-
-Gioco dei dadi
-Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
-Stabilire il vincitore, in base a chi fa il punteggio più alto.
 */
 
 // MAIL
