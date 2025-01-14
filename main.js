@@ -15,12 +15,12 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 // MAIL
 // Creazione lista e-mail di invitati
-
+let listaInvitati = ["simone@bool.com", "giulia@bool.com", "angela@bool.com"];
 
 // Chiedere e-mail all'utente
-
+let emailUtente = prompt("Inserisci la tua email");
 
 // Controllo se utente è nella lista
-
+for (let i = 0; i < listaInvitati.length; i++)
 
 // Stampare esito controllo
