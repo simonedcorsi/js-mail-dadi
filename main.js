@@ -24,11 +24,9 @@ let benvenuto = false;
 // Controllo se utente è nella lista
 for (let i = 0; i < listaInvitati.length; i++) {
     
-// Stampare esito controllo
 if (listaInvitati[i] === emailUtente) {
-    console.log("Grazie per essere venuto")
+benvenuto = true; }
 }
-else {
-    console.log("Non sei stato invitato")
-}
-}
+
+// Stampare esito controllo
+
