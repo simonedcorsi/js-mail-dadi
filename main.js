@@ -19,8 +19,16 @@ let listaInvitati = ["simone@bool.com", "giulia@bool.com", "angela@bool.com"];
 
 // Chiedere e-mail all'utente
 let emailUtente = prompt("Inserisci la tua email");
+let benvenuto = false;
 
 // Controllo se utente è nella lista
-for (let i = 0; i < listaInvitati.length; i++)
-
+for (let i = 0; i < listaInvitati.length; i++) {
+    
 // Stampare esito controllo
+if (listaInvitati[i] === emailUtente) {
+    console.log("Grazie per essere venuto")
+}
+else {
+    console.log("Non sei stato invitato")
+}
+}
